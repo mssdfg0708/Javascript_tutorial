@@ -1,21 +1,21 @@
 body {
-    background-color: white;
-    color:black;
+    background-color: rgb(14, 14, 14);
+    color:white;
     margin:0;
 }
 a {
-    color: green;
+    color: yellowgreen;
     text-decoration : none;
 }
 h1 {
     margin: 0;
     padding: 20px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
     font-size: 45px;
     text-align: center;
 }
 .selected{
-    color: green;
+    color: yellowgreen;
 }
 .button {
     background-color: yellowgreen;
@@ -29,7 +29,6 @@ h1 {
     margin: 4px;
     cursor: pointer;
     width: 150px;
-
 }
 #active{
     text-decoration: underline;
@@ -41,16 +40,16 @@ h1 {
 #Grid ol {
     margin: 0;
     padding: 30px;
-    border-right: 2px solid black;
+    border-right: 2px solid white;
     width: 100px;
 }
 #Reference{
-    color: black;
+    color: white;
     text-align: right;
     padding-right: 30px;
 }
 #Article{
-    color: black;
+    color: white;
     padding-right: 30px;
     padding-left: 30px;
 }

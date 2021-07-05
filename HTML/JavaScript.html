@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>WEB1 - html</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark_mode_style.css" id="dark">
+    <link rel="stylesheet" href="style.css" id="white">
+    <script src="dark_mode.js"></script>
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
@@ -15,6 +17,7 @@
         </ol>
         <div id="Article">
             <p>
+                <input id="night_day_button" type="button" class="button" value="dark mode" onclick="night_day_handler(this)">
                 <h2>JavaScript</h2>
                 JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages, but it's used in many non-browser environments as well. ... JavaScript can function as both a procedural and an object oriented language
                 <p>

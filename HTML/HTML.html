@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>WEB1 - html</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark_mode_style.css" id="dark">
+    <link rel="stylesheet" href="style.css" id="white">
+    <script src="dark_mode.js"></script>
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
@@ -15,6 +17,7 @@
         </ol>
         <div id="Article">
             <p>
+                <input id="night_day_button" type="button" class="button" value="dark mode" onclick="night_day_handler(this)">
                 <h2>HTML</h2>
                 The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
                 Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
