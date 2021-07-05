@@ -1,0 +1,46 @@
+body {
+    margin:0;
+}
+a {
+    color: black;
+    text-decoration : none;
+}
+h1 {
+    margin: 0;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    font-size: 45px;
+    text-align: center;
+}
+.selected{
+    color: green;
+}
+#active{
+    text-decoration: underline;
+}
+#Grid{
+    display: grid;
+    grid-template-columns: 160px 1fr;
+}
+#Grid ol {
+    margin: 0;
+    padding: 30px;
+    border-right: 2px solid black;
+    width: 100px;
+}
+#Reference{
+    text-align: right;
+    padding-right: 30px;
+}
+#Article{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+@media(max-width : 800px){
+    #Grid{
+        display: block;
+    }
+    #Grid ol{
+        border-right: none;
+    } 
+}
